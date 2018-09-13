@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title-font {
+  font-family: 'Domine', serif;  
+  font-weight: 700;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 
+}
+
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  min-width: 40vw;
+}
+
+.menu-link {
+  flex-shrink: 0;
+}
