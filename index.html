@@ -12,20 +12,22 @@
 <script src="index.js"></script>
 </head>
 <body>
-  <header class="menu">
-    <div class="menu-logo">
-      <a class="title-font" href="#">Remy's Cuisine</a>
+  <header class="menu-bg">
+    <div class="menu-container">
+      <div class="menu-logo">
+        <a class="logo title-font" href="#">Remy's Cuisine</a>
+      </div>
+      <nav>
+        <ul class="menu-nav no-bullets">
+          <li><a href="#main">A Escola</a></li>
+          <li><a href="#courses">Cursos</a></li>
+          <li><a href="#benefits">Vantagens</a></li>
+          <li><a href="#about">O Chef</a></li>
+          <li><a href="#plans">Planos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul class="menu-links no-bullets">
-        <li class="menu-link"><a href="#main">A Escola</a></li>
-        <li class="menu-link"><a href="#courses">Cursos</a></li>
-        <li class="menu-link"><a href="#benefits">Vantagens</a></li>
-        <li class="menu-link"><a href="#about">O Chef</a></li>
-        <li class="menu-link"><a href="#plans">Planos</a></li>
-        <li class="menu-link"><a href="#contact">Contato</a></li>
-      </ul>
-    </nav>
   </header>
 
   <section class="main" id="main">
@@ -232,10 +234,10 @@
 
   <section class="newsletter">
     <h2>Assine a newsletter da escola e fique por dentro de novos lançamentos e promoções</h2>
-    <div class="newsletter">
+    <form class="newsletter-form">
       <input type="text" placeholder="Digite seu e-mail aqui">
       <button class="newsletter-btn" id="newsletter-btn">Cadastrar</button>
-    </div>
+    </form>
   </section>
 
   <footer>

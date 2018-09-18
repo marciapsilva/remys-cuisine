@@ -5,11 +5,16 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #292929;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .title-font {
@@ -21,18 +26,36 @@ a {
   list-style: none;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  margin: 
+.menu-bg {
+  background-color: #f1ede2;
 }
 
-.menu-links {
+.menu-container {
+  max-width: 90vw;
   display: flex;
   justify-content: space-between;
-  min-width: 40vw;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.menu-link {
-  flex-shrink: 0;
+.menu-logo {
+  margin: 1% 0;
 }
+
+.logo {
+  font-size: 2rem;
+  color: #b54f2c;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.menu-nav li {
+  margin: 1%;
+}
+
